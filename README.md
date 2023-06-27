@@ -1,4 +1,4 @@
-# Starting point
+# workstation
 
 [![build-ublue](https://github.com/ezq/workstation/actions/workflows/build.yml/badge.svg)](https://github.com/ezq/workstation/actions/workflows/build.yml)
 
