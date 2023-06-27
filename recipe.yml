@@ -57,7 +57,7 @@ rpm:
     - libadwaita
     # Add your own below:
     # Example:
-    # - tilix
+    - tilix
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
   remove:
@@ -78,5 +78,9 @@ firstboot:
   # the "just setup-flatpaks" command from our "custom.just" template file.
   # This is just an example selection:
   flatpaks:
-    - io.github.celluloid_player.Celluloid
-    - org.kde.krita
+    - com.mattjakeman.ExtensionManager
+    - com.spotify.Client
+    - org.gnome.Firmware
+    - org.zulip.Zulip
+    - com.skype.Client
+    - com.google.Chrome
